@@ -1,0 +1,57 @@
+[0;33m--- esp-idf-monitor 1.3.4 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x4037d90b: xPortSysTickHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:199
+[0m
+[0;33m0x4037d999: SysTickIsrHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:148
+[0m
+[0;33m0x40377239: _xt_lowint1 at /home/stephen/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x420074aa: app_main at /home/stephen/UCS1903_LED_Repeater/main/main.c:62 (discriminator 1)
+[0m
+[0;33m0x4201799c: main_task at /home/stephen/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759ec: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x4037d90b: xPortSysTickHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:199
+[0m
+[0;33m0x4037d999: SysTickIsrHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:148
+[0m
+[0;33m0x40377239: _xt_lowint1 at /home/stephen/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x420074b2: app_main at /home/stephen/UCS1903_LED_Repeater/main/main.c:64
+[0m
+[0;33m0x4201799c: main_task at /home/stephen/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759ec: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x4037d90b: xPortSysTickHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:199
+[0m
+[0;33m0x4037d999: SysTickIsrHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:148
+[0m
+[0;33m0x40377239: _xt_lowint1 at /home/stephen/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x420074b8: app_main at /home/stephen/UCS1903_LED_Repeater/main/main.c:64
+[0m
+[0;33m0x4201799c: main_task at /home/stephen/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759ec: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

@@ -1,0 +1,21 @@
+[0;33m--- esp-idf-monitor 1.3.4 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x403758bc: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x403758bc: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x403758bc: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

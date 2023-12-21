@@ -1,0 +1,95 @@
+[0;33m--- esp-idf-monitor 1.3.4 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037d90b: xPortSysTickHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:199
+[0m
+[0;33m0x4037d999: SysTickIsrHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:148
+[0m
+[0;33m0x40377239: _xt_lowint1 at /home/stephen/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x40378503: xt_utils_wait_for_intr at /home/stephen/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/stephen/esp/esp-idf/components/esp_hw_support/cpu.c:132
+[0m
+[0;33m0x42009852: esp_vApplicationIdleHook at /home/stephen/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+[0m
+[0;33m0x4037b415: prvIdleTask at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200818e: gpio_ll_get_level at /home/stephen/esp/esp-idf/components/hal/esp32s3/include/hal/gpio_ll.h:374
+ (inlined by) gpio_get_level at /home/stephen/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:244
+[0m
+[0;33m0x4037829c: ipc_task at /home/stephen/esp/esp-idf/components/esp_system/esp_ipc.c:48
+[0m
+[0;33m0x4037b415: prvIdleTask at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40377404: gpio_isr_loop at /home/stephen/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:463
+[0m
+[0;33m0x4037d90b: xPortSysTickHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:199
+[0m
+[0;33m0x4037d999: SysTickIsrHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:148
+[0m
+[0;33m0x40377239: _xt_lowint1 at /home/stephen/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x40378503: xt_utils_wait_for_intr at /home/stephen/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/stephen/esp/esp-idf/components/esp_hw_support/cpu.c:132
+[0m
+[0;33m0x42009852: esp_vApplicationIdleHook at /home/stephen/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+[0m
+[0;33m0x4037b415: prvIdleTask at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037d4ce: _frxt_int_enter at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:160
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x403759ec: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4037d90b: xPortSysTickHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:199
+[0m
+[0;33m0x4037d999: SysTickIsrHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:148
+[0m
+[0;33m0x40377239: _xt_lowint1 at /home/stephen/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x40378503: xt_utils_wait_for_intr at /home/stephen/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/stephen/esp/esp-idf/components/esp_hw_support/cpu.c:132
+[0m
+[0;33m0x42009852: esp_vApplicationIdleHook at /home/stephen/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+[0m
+[0;33m0x4037b415: prvIdleTask at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403774c7: gpio_isr_loop at /home/stephen/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:477
+[0m
+[0;33m0x400570e8: memset in ROM
+[0m
+[0;33m0x400570f3: memset in ROM
+[0m
+[0;33m0x4037d90b: xPortSysTickHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:199
+[0m
+[0;33m0x4037d999: SysTickIsrHandler at /home/stephen/esp/esp-idf/components/freertos/port_systick.c:148
+[0m
+[0;33m0x40377239: _xt_lowint1 at /home/stephen/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x420074be: app_main at /home/stephen/UCS1903_LED_Repeater/main/main.c:64
+[0m
+[0;33m0x4201799c: main_task at /home/stephen/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403759ec: esp_restart_noos at /home/stephen/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4037829c: ipc_task at /home/stephen/esp/esp-idf/components/esp_system/esp_ipc.c:48
+[0m
+[0;33m0x4037b415: prvIdleTask at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+[0m
+[0;33m0x4037d06d: vPortTaskWrapper at /home/stephen/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403774db: gpio_intr_service at /home/stephen/esp/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+[0m
+[0m

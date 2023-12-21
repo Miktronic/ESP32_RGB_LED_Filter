@@ -1,0 +1,5644 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v0.1[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (49) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (58) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (92) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (113) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (118) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (144) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (183) cpu_start: Pro cpu start user code[0m
+[0;32mI (183) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (183) cpu_start: Application information:[0m
+[0;32mI (186) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (192) cpu_start: App version:      1[0m
+[0;32mI (197) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (203) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (208) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (215) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (219) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (224) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (229) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (236) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (242) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (248) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (255) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (262) spi_flash: detected chip: gd[0m
+[0;32mI (265) spi_flash: flash io: dio[0m
+[0;33mW (269) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (282) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (289) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (296) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+[0;32mI (316) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x0000013c  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000000 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0x3FFFFFF
+LED56, val: 0x3FFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0x1FFFFFF
+LED57, val: 0x7FFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fff800 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0x1FFFFFF
+LED57, val: 0x7FFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000000 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0x00000064  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb28  PS      : 0x00050033  A0      : 0x806edb28  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000010  A11     : 0x00000063  A12     : 0x00000001  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb25:0x3fc98d40 0x406edb25:0x00fffc00 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1FFFFFE
+LED1, val: 0xFFFFFF
+LED2, val: 0xFFFFFF
+LED3, val: 0xFFFFFF
+LED4, val: 0xFFFFFF
+LED5, val: 0xFFFFFF
+LED6, val: 0xFFFFFF
+LED7, val: 0xFFFFFF
+LED8, val: 0xFFFFFF
+LED9, val: 0xFFFFFF
+LED10, val: 0xFFFFFF
+LED11, val: 0xFFFFFF
+LED12, val: 0xFFFFFF
+LED13, val: 0xFFFFFF
+LED14, val: 0xFFFFFF
+LED15, val: 0xFFFFFF
+LED16, val: 0xFFFFFF
+LED17, val: 0xFFFFFF
+LED18, val: 0xFFFFFF
+LED19, val: 0xFFFFFF
+LED20, val: 0xFFFFFF
+LED21, val: 0xFFFFFF
+LED22, val: 0xFFFFFF
+LED23, val: 0xFFFFFF
+LED24, val: 0xFFFFFF
+LED25, val: 0xFFFFFF
+LED26, val: 0xFFFFFF
+LED27, val: 0xFFFFFF
+LED28, val: 0xFFFFFF
+LED29, val: 0xFFFFFF
+LED30, val: 0xFFFFFF
+LED31, val: 0xFFFFFF
+LED32, val: 0xFFFFFF
+LED33, val: 0xFFFFFF
+LED34, val: 0xFFFFFF
+LED35, val: 0xFFFFFF
+LED36, val: 0xFFFFFF
+LED37, val: 0xFFFFFF
+LED38, val: 0xFFFFFF
+LED39, val: 0xFFFFFF
+LED40, val: 0xFFFFFF
+LED41, val: 0xFFFFFF
+LED42, val: 0xFFFFFF
+LED43, val: 0xFFFFFF
+LED44, val: 0xFFFFFF
+LED45, val: 0xFFFFFF
+LED46, val: 0xFFFFFF
+LED47, val: 0xFFFFFF
+LED48, val: 0xFFFFFF
+LED49, val: 0xFFFFFF
+LED50, val: 0xFFFFFF
+LED51, val: 0xFFFFFF
+LED52, val: 0xFFFFFF
+LED53, val: 0xFFFFFF
+LED54, val: 0xFFFFFF
+LED55, val: 0xFFFFFF
+LED56, val: 0xFFFFFF
+LED57, val: 0xFFFFFF
+LED58, val: 0xFFFFFF
+LED59, val: 0xFFFFFF
+LED60, val: 0xFFFFFF
+LED61, val: 0xFFFFFF
+LED62, val: 0xFFFFFF
+LED63, val: 0xFFFFFF
+LED64, val: 0xFFFFFF
+LED65, val: 0xFFFFFF
+LED66, val: 0xFFFFFF
+LED67, val: 0xFFFFFF
+LED68, val: 0xFFFFFF
+LED69, val: 0xFFFFFF
+LED70, val: 0xFFFFFF
+LED71, val: 0xFFFFFF
+LED72, val: 0xFFFFFF
+LED73, val: 0xFFFFFF
+LED74, val: 0xFFFFFF
+LED75, val: 0xFFFFFF
+LED76, val: 0xFFFFFF
+LED77, val: 0xFFFFFF
+LED78, val: 0xFFFFFF
+LED79, val: 0xFFFFFF
+LED80, val: 0xFFFFFF
+LED81, val: 0xFFFFFF
+LED82, val: 0xFFFFFF
+LED83, val: 0xFFFFFF
+LED84, val: 0xFFFFFF
+LED85, val: 0xFFFFFF
+LED86, val: 0xFFFFFF
+LED87, val: 0xFFFFFF
+LED88, val: 0xFFFFFF
+LED89, val: 0xFFFFFF
+LED90, val: 0xFFFFFF
+LED91, val: 0xFFFFFF
+LED92, val: 0xFFFFFF
+LED93, val: 0xFFFFFF
+LED94, val: 0xFFFFFF
+LED95, val: 0xFFFFFF
+LED96, val: 0xFFFFFF
+LED97, val: 0xFFFFFF
+LED98, val: 0xFFFFFF
+LED99, val: 0xFFFFFE
+Guru Meditation Error: Core  0 panic'ed (InstrFetchProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x806edb29  PS      : 0x00050033  A0      : 0x806edb29  A1      : 0x3fc98d40  
+A2      : 0x00000003  A3      : 0x3c023f10  A4      : 0x3c023f48  A5      : 0x00000141  
+A6      : 0x3fc94ec0  A7      : 0x00000064  A8      : 0x00001003  A9      : 0xaaaaaaab  
+A10     : 0x00000015  A11     : 0x00000063  A12     : 0x00fffffe  A13     : 0x600090c4  
+A14     : 0x0000000a  A15     : 0x3fc9a118  SAR     : 0x00000004  EXCCAUSE: 0x00000014  
+EXCVADDR: 0x806edb28  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x00000000  
+
+
+Backtrace: 0x406edb26:0x3fc98d40 0x406edb26:0x00000001 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: ec10746df
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403758bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v0.1[0m
+[0;32mI (40) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (44) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0c9e0h ( 51680) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=0001ca08 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=0001f31c vaddr=40374000 size=00cfch (  3324) load[0m
+[0;32mI (123) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18d24h (101668) map[0m
+[0;32mI (149) esp_image: segment 4: paddr=00038d4c vaddr=40374cfc size=0d0b8h ( 53432) load[0m
+[0;32mI (166) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (178) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (188) cpu_start: Application information:[0m
+[0;32mI (191) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (197) cpu_start: App version:      1[0m
+[0;32mI (201) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (207) cpu_start: ELF file SHA256:  ec10746df...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC95160 len 000545B0 (337 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 386080 bytes
+LED0, val: 0x1000001
+LED1, val: 0x0
+LED2, val: 0x0
+LED3, val: 0x0
+LED4, val: 0x0
+LED5, val: 0x0
+LED6, val: 0x0
+LED7, val: 0x0
+LED8, val: 0x0
+LED9, val: 0x0
+LED10, val: 0x0
+LED11, val: 0x0
+LED12, val: 0x0
+LED13, val: 0x0
+LED14, val: 0x0
+LED15, val: 0x0
+LED16, val: 0x0
+LED17, val: 0x0
+LED18, val: 0x0
+LED19, val: 0x0
+LED20, val: 0x0
+LED21, val: 0x0
+LED22, val: 0x0
+LED23, val: 0x0
+LED24, val: 0x0
+LED25, val: 0x0
+LED26, val: 0x0
+LED27, val: 0x0
+LED28, val: 0x0
+LED29, val: 0x0
+LED30, val: 0x0
+LED31, val: 0x0
+LED32, val: 0x0
+LED33, val: 0x0
+LED34, val: 0x0
+LED35, val: 0x0
+LED36, val: 0x0
+LED37, val: 0x0
+LED38, val: 0x0
+LED39, val: 0x0
+LED40, val: 0x0
+LED41, val: 0x0
+LED42, val: 0x0
+LED43, val: 0x0
+LED44, val: 0x0
+LED45, val: 0x0
+LED46, val: 0x0
+LED47, val: 0x0
+LED48, val: 0x0
+LED49, val: 0x0
+LED50, val: 0x0
+LED51, val: 0x0
+LED52, val: 0x0
+LED53, val: 0x0
+LED54, val: 0x0
+LED55, val: 0x0
+LED56, val: 0x0
+LED57, val: 0x0
+LED58, val: 0x0
+LED59, val: 0x0
+LED60, val: 0x0
+LED61, val: 0x0
+LED62, val: 0x0
+LED63, val: 0x0
+LED64, val: 0x0
+LED65, val: 0x0
+LED66, val: 0x0
+LED67, val: 0x0
+LED68, val: 0x0
+LED69, val: 0x0
+LED70, val: 0x0
+LED71, val: 0x0
+LED72, val: 0x0
+LED73, val: 0x0
+LED74, val: 0x0
+LED75, val: 0x0
+LED76, val: 0x0
+LED77, val: 0x0
+LED78, val: 0x0
+LED79, val: 0x0
+LED80, val: 0x0
+LED81, val: 0x0
+LED82, val: 0x0
+LED83, val: 0x0
+LED84, val: 0x0
+LED85, val: 0x0
+LED86, val: 0x0
+LED87, val: 0x0
+LED88, val: 0x0
+LED89, val: 0x0
+LED90, val: 0x0
+LED91, val: 0x0
+LED92, val: 0x0
+LED93, val: 0x0
+LED94, val: 0x0
+LED95, val: 0x0
+LED96, val: 0x0
+LED97, val: 0x0
+LED98, val: 0x0
+LED99, val: 0x1

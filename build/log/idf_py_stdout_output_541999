@@ -1,0 +1,186 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcb8
+load:0x403cc700,len:0x2d80
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.3-dev-892-g692c1fcc52 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Dec 20 2023 18:28:13[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v0.1[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (49) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (58) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (92) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0ca00h ( 51712) map[0m
+[0;32mI (110) esp_image: segment 1: paddr=0001ca28 vaddr=3fc91e00 size=0290ch ( 10508) load[0m
+[0;32mI (113) esp_image: segment 2: paddr=0001f33c vaddr=40374000 size=00cdch (  3292) load[0m
+[0;32mI (118) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18da0h (101792) map[0m
+[0;32mI (144) esp_image: segment 4: paddr=00038dc8 vaddr=40374cdc size=0d09ch ( 53404) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (183) cpu_start: Pro cpu start user code[0m
+[0;32mI (183) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (183) cpu_start: Application information:[0m
+[0;32mI (186) cpu_start: Project name:     UCS1903_LED_REPEATER[0m
+[0;32mI (192) cpu_start: App version:      1[0m
+[0;32mI (197) cpu_start: Compile time:     Dec 20 2023 18:28:11[0m
+[0;32mI (203) cpu_start: ELF file SHA256:  368a3bee1...[0m
+[0;32mI (208) cpu_start: ESP-IDF:          v5.3-dev-892-g692c1fcc52[0m
+[0;32mI (215) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (219) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (224) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (229) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (236) heap_init: At 3FC94FE0 len 00054730 (337 KiB): RAM[0m
+[0;32mI (242) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (248) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (255) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (262) spi_flash: detected chip: gd[0m
+[0;32mI (265) spi_flash: flash io: dio[0m
+[0;33mW (269) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (282) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (289) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (296) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+[0;32mI (316) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+Minimum free heap size: 384068 bytes
+Time[2465416]: LED0, val: 0x0
+Time[4865415]: LED0, val: 0x0
+Time[5465544]: LED0, val: 0x3FFFFF
+Time[5565699]: LED0, val: 0x0
+Time[5665859]: LED0, val: 0x3FFFFF
+Time[5766015]: LED0, val: 0x0
+Time[5866171]: LED0, val: 0x3FFFFF
+Time[5966335]: LED0, val: 0x0
+Time[6066493]: LED0, val: 0x3FFFFF
+Time[6166649]: LED0, val: 0x0
+Time[6266809]: LED0, val: 0x3FFFFF
+Time[6366970]: LED0, val: 0x0
+Time[6467126]: LED0, val: 0x3FFFFF
+Time[6567283]: LED0, val: 0x0
+Time[6667447]: LED0, val: 0x3FFFFF
+Time[6767604]: LED0, val: 0x0
+Time[6867764]: LED0, val: 0x3FFFFF
+Time[6967920]: LED0, val: 0x0
+Time[7068078]: LED0, val: 0x3FFFFF
+Time[7168240]: LED0, val: 0x0
+Time[7268401]: LED0, val: 0x3FFFFF
+Time[7368561]: LED0, val: 0x0
+Time[7468717]: LED0, val: 0x3FFFFF
+Time[7568881]: LED0, val: 0x0
+Time[7669038]: LED0, val: 0x3FFFFF
+Time[7769195]: LED0, val: 0x0
+Time[7869355]: LED0, val: 0x3FFFFF
+Time[7969512]: LED0, val: 0x0
+Time[8069709]: LED0, val: 0x3FFFFF
+Time[8169866]: LED0, val: 0x0
+Time[8270030]: LED0, val: 0x3FFFFF
+Time[8370187]: LED0, val: 0x0
+Time[8470343]: LED0, val: 0x3FFFFF
+Time[8570500]: LED0, val: 0x0
+Time[8670657]: LED0, val: 0x3FFFFF
+Time[8770821]: LED0, val: 0x0
+Time[8870981]: LED0, val: 0x3FFFFF
+Time[8971137]: LED0, val: 0x0
+Time[9071295]: LED0, val: 0x3FFFFF
+Time[9171458]: LED0, val: 0x0
+Time[9271619]: LED0, val: 0x3FFFFF
+Time[9371775]: LED0, val: 0x0
+Time[9471932]: LED0, val: 0x3FFFFF
+Time[9572088]: LED0, val: 0x0
+Time[9672249]: LED0, val: 0x3FFFFF
+Time[9772406]: LED0, val: 0x0
+Time[9872563]: LED0, val: 0x3FFFFF
+Time[9972720]: LED0, val: 0x0
+Time[10072879]: LED0, val: 0x3FFFFF
+Time[10173036]: LED0, val: 0x0
+Time[10273194]: LED0, val: 0x3FFFFF
+Time[10373357]: LED0, val: 0x0
+Time[10473514]: LED0, val: 0x3FFFFF
+Time[10573671]: LED0, val: 0x0
+Time[10673868]: LED0, val: 0x3FFFFF
+Time[10774032]: LED0, val: 0x0
+Time[10874190]: LED0, val: 0x3FFFFF
+Time[10974349]: LED0, val: 0x0
+Time[11074507]: LED0, val: 0x3FFFFF
+Time[11174663]: LED0, val: 0x0
+Time[11274827]: LED0, val: 0x3FFFFF
+Time[11374984]: LED0, val: 0x0
+Time[11475141]: LED0, val: 0x3FFFFF
+Time[11575300]: LED0, val: 0x0
+Time[13485415]: LED0, val: 0x0
+Time[15885415]: LED0, val: 0x0
+Time[17985493]: LED0, val: 0x0
+Time[18085652]: LED0, val: 0xFF
+Time[18185818]: LED0, val: 0x0
+Time[18285978]: LED0, val: 0x3FF
+Time[18386137]: LED0, val: 0x0
+Time[18486337]: LED0, val: 0xFFF
+Time[18586496]: LED0, val: 0x0
+Time[18686657]: LED0, val: 0x1FFF
+Time[18786817]: LED0, val: 0x0
+Time[18886981]: LED0, val: 0x1FFF
+Time[18987137]: LED0, val: 0x0
+Time[19087296]: LED0, val: 0x3FFF
+Time[19187459]: LED0, val: 0x0
+Time[19287616]: LED0, val: 0x7FFF
+Time[19387782]: LED0, val: 0x0
+Time[19487939]: LED0, val: 0xFFFF
+Time[19588098]: LED0, val: 0x0
+Time[19688258]: LED0, val: 0xFFFF
+Time[19788422]: LED0, val: 0x0
+Time[19888580]: LED0, val: 0xFFFF
+Time[19988737]: LED0, val: 0x0
+Time[20088893]: LED0, val: 0xFFFF
+Time[20189053]: LED0, val: 0x0
+Time[20289209]: LED0, val: 0xFFFF
+Time[20389366]: LED0, val: 0x0
+Time[20489523]: LED0, val: 0xFFFF
+Time[20589679]: LED0, val: 0x0
+Time[20689836]: LED0, val: 0xFFFF
+Time[20789992]: LED0, val: 0x0
+Time[20890150]: LED0, val: 0xFFFF
+Time[20990310]: LED0, val: 0x0
+Time[21090511]: LED0, val: 0xFFFF
+Time[21190671]: LED0, val: 0x0
+Time[21290828]: LED0, val: 0xFFFF
+Time[21390992]: LED0, val: 0x0
+Time[21491150]: LED0, val: 0xFFFF
+Time[21591306]: LED0, val: 0x0
+Time[21691463]: LED0, val: 0xFFFF
+Time[21791622]: LED0, val: 0x0
+Time[21891778]: LED0, val: 0xFFFF
+Time[21991936]: LED0, val: 0x0
+Time[22092092]: LED0, val: 0xFFFF
+Time[22192248]: LED0, val: 0x0
+Time[22292405]: LED0, val: 0xFFFF
+Time[22392565]: LED0, val: 0x0
+Time[22492724]: LED0, val: 0x1FFFF
+Time[22592888]: LED0, val: 0x0
+Time[22693044]: LED0, val: 0x1FFFF
+Time[22793203]: LED0, val: 0x0
+Time[22893360]: LED0, val: 0x1FFFF
+Time[22993517]: LED0, val: 0x0
+Time[23093681]: LED0, val: 0x1FFFF
+Time[23193838]: LED0, val: 0x0
+Time[23293995]: LED0, val: 0x1FFFF
+Time[23394154]: LED0, val: 0x0
+Time[23494315]: LED0, val: 0x1FFFF
+Time[23594472]: LED0, val: 0x0
+Time[23694673]: LED0, val: 0x1FFFF
+Time[23794830]: LED0, val: 0x0
+Time[23894987]: LED0, val: 0x1FFFF
+Time[23995144]: LED0, val: 0x0
+Time[24095301]: LED0, val: 0x1FFFF
+Time[25505415]: LED0, val: 0x0
